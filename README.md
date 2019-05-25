@@ -11,7 +11,7 @@ cat 471733__juanfg__fight.wav | node lib/index.js
 
 The `output.svg` file will be generated in a project root directory with a pretty precise shape of WAV file samples, and it's only **12 KB**.
 
-![Preview](https://raw.githubusercontent.com/alexey-detr/wave-samples-svg/master/output.svg)
+![Preview](https://raw.githubusercontent.com/alexey-detr/wave-samples-svg/master/output.svg?sanitize=true)
 
 It isn't honest to compare this with raster formats, but roughly PNG takes nearly the same size and JPEG (which also has a lack of an alpha channel) takes twice more than SVG version.
 
