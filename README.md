@@ -8,7 +8,7 @@ Currently it's a tiny Node.js tool which generates SVG previews. For example, ru
 cat 471733__juanfg__fight.wav | node lib/index.js
 ```
 
-will generate an `output.svg` file in a project root directory with a pretty precise shape of WAV file samples, and it's only **3.4 KB**. This tool uses on a popular [SVGO project](https://github.com/svg/svgo) with default settings to optimize generated results, so there is no need to do it manually.
+will generate an `output.svg` file in a project root directory with a pretty precise shape of WAV file samples, and it's only **3.4 KB**. This tool uses a popular [SVGO project](https://github.com/svg/svgo) with default settings to optimize generated results, so there is no need to do it manually.
 
 ![Preview](https://raw.githubusercontent.com/alexey-detr/wave-samples-svg/master/output.svg?sanitize=true)
 
