@@ -1,0 +1,25 @@
+{
+  "name": "wave-samples-svg",
+  "version": "1.0.0",
+  "description": "That's just a proof of concept that it is possible to create a super lightweight SVG-based previews for WAV-files basically for a Web needs.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey-detr/wave-samples-svg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexey-detr/wave-samples-svg/issues"
+  },
+  "homepage": "https://github.com/alexey-detr/wave-samples-svg#readme",
+  "dependencies": {
+    "svgo": "^1.2.2"
+  }
+}
