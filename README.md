@@ -14,6 +14,6 @@ will generate an `output.svg` file in a project root directory with a pretty pre
 
 It isn't honest to compare this with raster formats, but roughly the same image in PNG takes about 10 KB and 30 KB in JPEG q90 (which also has a lack of an alpha channel).
 
-So, having at least the same size we also can get advantages of a gzip-compression since SVG is a text format and have a freedom for resizing since it's a vector image.
+So, having a smaller size we also can get advantages of a gzip-compression since SVG is a text format and have a freedom for resizing since it's a vector image.
 
 It is also possible to generate a less precise previews and the size can be reduced to **1 KB** or even less until it's still meaningful for your needs.
