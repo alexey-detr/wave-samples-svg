@@ -1,14 +1,14 @@
 # Wave Samples SVG library
 
-That's just a proof of concept that it is possible to create a super lightweight SVG-based previews for WAV-files basically for a Web needs.
+That's just a proof of concept that it is possible to generate a super lightweight SVG-based previews for WAV-files basically for a Web needs.
 
 Currently it's a tiny Node.js tool which generates SVG previews. For example, running this
 
 ```bash
-cat 471733__juanfg__fight.wav | node lib/index.js
+ffmpeg -i "example.wav" -f wav pipe: | node lib/index.js
 ```
 
-will generate an `output.svg` file in a project root directory with a pretty precise shape of WAV file samples, and it's only **3.4 KB**. This tool uses a popular [SVGO project](https://github.com/svg/svgo) with default settings to optimize generated results, so there is no need to do it manually.
+will generate an `output.svg` file in a project root directory with a pretty precise shape of WAV file samples, and it's only **3.1 KB**. This tool uses a popular [SVGO project](https://github.com/svg/svgo) with default settings to optimize generated results, so there is no need to do it manually.
 
 ![Preview](https://raw.githubusercontent.com/alexey-detr/wave-samples-svg/master/output.svg?sanitize=true)
 
