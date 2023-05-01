@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/alexey-detr/wave-samples-svg#readme",
   "dependencies": {
-    "svgo": "^1.2.2"
+    "svgo": "^3.0.2"
   }
 }
